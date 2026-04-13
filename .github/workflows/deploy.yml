@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci
+      - name: Build
+        run: npm run build --workspace=apps/web
+        env:
+          NEXT_PUBLIC_STELLAR_NETWORK: ${{ vars.STELLAR_NETWORK }}
+          NEXT_PUBLIC_HORIZON_URL: ${{ vars.HORIZON_URL }}
+          NEXT_PUBLIC_API_URL: ${{ vars.API_URL }}
+      # Add your deployment step here (Vercel, Netlify, etc.)
+      - name: Deploy notice
+        run: echo "Add your deployment action here (e.g. vercel-action)"
