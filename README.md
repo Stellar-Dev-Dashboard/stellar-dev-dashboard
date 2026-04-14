@@ -4,12 +4,12 @@
 
 **The simplest way to interact with the Stellar blockchain — no code required.**
 
-[![CI](https://github.com/yourusername/stellar-dev-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/stellar-dev-dashboard/actions)
+[![CI](https://github.com/Devcyprain/stellar-dev-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Deycyprain/stellar-dev-dashboard/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Good First Issues](https://img.shields.io/github/issues/yourusername/stellar-dev-dashboard/good%20first%20issue)](https://github.com/yourusername/stellar-dev-dashboard/labels/good%20first%20issue)
+[![Good First Issues](https://img.shields.io/github/issues/Deycyprain/stellar-dev-dashboard/good%20first%20issue)](https://github.com/Deycyprain/stellar-dev-dashboard/labels/good%20first%20issue)
 
-[Live Demo](https://stellar-dev-dashboard.vercel.app) · [Documentation](docs/) · [Report Bug](https://github.com/yourusername/stellar-dev-dashboard/issues) · [Request Feature](https://github.com/yourusername/stellar-dev-dashboard/issues/new?template=feature_request.yml)
+[Live Demo](https://stellar-dev-dashboard.vercel.app) · [Documentation](docs/) · [Report Bug](https://github.com/Deycyprain/stellar-dev-dashboard/issues) · [Request Feature](https://github.com/Deycyprain/stellar-dev-dashboard/issues/new?template=feature_request.yml)
 
 </div>
 
@@ -115,7 +115,7 @@ See [docs/architecture.md](docs/architecture.md) for full details.
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/stellar-dev-dashboard.git
+git clone https://github.com/Deycyprain/stellar-dev-dashboard.git
 cd stellar-dev-dashboard
 
 # 2. Install
@@ -139,7 +139,7 @@ See [docs/getting-started.md](docs/getting-started.md) for the full setup guide.
 
 We welcome all contributions — from documentation fixes to new features.
 
-1. Browse [open issues](https://github.com/yourusername/stellar-dev-dashboard/issues)
+1. Browse [open issues](https://github.com/Deycyprain/stellar-dev-dashboard/issues)
 2. Comment on one to claim it
 3. Fork → branch → PR
 
